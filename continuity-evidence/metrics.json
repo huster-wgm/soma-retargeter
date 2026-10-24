@@ -1,0 +1,38 @@
+{
+  "frames": {
+    "baseline": 424,
+    "continuity": 424
+  },
+  "finite": true,
+  "fps": 120,
+  "window_seconds": [
+    0.9,
+    1.05
+  ],
+  "peak_adjacent_delta_degrees": {
+    "right_shoulder_pitch_joint": {
+      "baseline": 11.182368,
+      "continuity": 2.9316180000000003
+    },
+    "right_shoulder_roll_joint": {
+      "baseline": 14.703535000000002,
+      "continuity": 7.065490000000011
+    },
+    "right_shoulder_yaw_joint": {
+      "baseline": 17.440475,
+      "continuity": 6.152884
+    },
+    "right_wrist_roll_joint": {
+      "baseline": 12.411849999999994,
+      "continuity": 4.265660000000004
+    },
+    "right_wrist_pitch_joint": {
+      "baseline": 10.552862999999999,
+      "continuity": 2.5343969999999985
+    },
+    "right_wrist_yaw_joint": {
+      "baseline": 6.1370933,
+      "continuity": 1.17178796
+    }
+  }
+}
