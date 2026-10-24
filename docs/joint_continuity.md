@@ -96,7 +96,7 @@ floating-point precision. A MuJoCo FK contact query using the original XML
 masks found no self-penetration, but existing ground penetration up to about
 1.19 cm remained. This is not a dynamics rollout or proof of collision freedom.
 
-[Before/after videos and credits](EVIDENCE_LINK)
+[Before/after videos and credits](https://github.com/huster-wgm/soma-retargeter/blob/50e86c49bb65a763f18d62346a8774faff3614c4/continuity-evidence/README.md)
 
 The videos are the previously recorded comparison, 107 frames at 30 fps
 (3.57 seconds); each shows original SOMA on the left and the robot on the right.
