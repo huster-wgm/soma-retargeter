@@ -1,5 +1,7 @@
 # A3 shoulder/wrist continuity — clip 19
 
+Left: before. Right: after.
+
 ![Before and after](before-after.gif)
 
 [Before: original SOMA vs A3 (MP4)](before.mp4) · [After: original SOMA vs A3 (MP4)](after.mp4)
