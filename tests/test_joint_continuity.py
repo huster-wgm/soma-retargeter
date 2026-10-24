@@ -90,7 +90,7 @@ class JointContinuityTests(unittest.TestCase):
         solver = ik.IKSolver(self.model, n_problems=1, objectives=[target, prior],
                              jacobian_mode=ik.IKJacobianType.ANALYTIC)
         q = wp.array(self.model.joint_q.numpy()[None], dtype=wp.float32)
-        reference = q.numpy(); reference[0, target._coords[0]] = .8
+        reference = q.numpy().copy(); reference[0, target._coords[0]] = .8
         target.update_reference(wp.array(reference, dtype=wp.float32))
         prior.update_reference(q)
         solver.step(q, q, iterations=24)
